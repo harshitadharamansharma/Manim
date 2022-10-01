@@ -1,0 +1,6 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/HP/project/media/videos/surroundcheck/1080p60/partial_movie_files/MovingFrameBox/2724823860_2481176499_223132457.mp4'
+file 'file:C:/Users/HP/project/media/videos/surroundcheck/1080p60/partial_movie_files/MovingFrameBox/1164547788_4286323635_404133433.mp4'
+file 'file:C:/Users/HP/project/media/videos/surroundcheck/1080p60/partial_movie_files/MovingFrameBox/1164547788_641011677_1220520541.mp4'
+file 'file:C:/Users/HP/project/media/videos/surroundcheck/1080p60/partial_movie_files/MovingFrameBox/1164547788_2630841390_2998664129.mp4'
+file 'file:C:/Users/HP/project/media/videos/surroundcheck/1080p60/partial_movie_files/MovingFrameBox/1164547788_641011677_176834996.mp4'

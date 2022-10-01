@@ -1,0 +1,27 @@
+from manim import *
+
+
+class HomotopyExample(Scene):
+    def construct(self):
+        def plane_wave_homotopy(x, y, z, t):
+            norm = get_norm([x, y])
+            """Finally, the utility functions get_norm and cross have been removed (use the corresponding Numpy methods instead), and the function angle_between has been replaced with angle_between_vectors.
+
+            """
+            tau = interpolate(5, -5, t) + norm/FRAME_X_RADIUS
+            alpha = sigmoid(tau)
+            return [x, y + 0.5*np.sin(2*np.pi*alpha)-t*SMALL_BUFF/2, z]
+
+        mobjects=VGroup( #TexMobject ; is replaced with Tex now
+            Tex("Text").scale(3),
+            Square(),
+        ).arrange_submobjects(RIGHT,buff=2)
+
+        self.add(mobjects)
+        self.play(
+            *[Homotopy(
+                plane_wave_homotopy,
+                mob
+            ) for mob in mobjects]
+        )
+        self.wait(0.3)

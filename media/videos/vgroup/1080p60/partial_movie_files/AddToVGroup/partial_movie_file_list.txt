@@ -1,0 +1,6 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/HP/project/media/videos/vgroup/1080p60/partial_movie_files/AddToVGroup/2724823860_3503346753_3200743901.mp4'
+file 'file:C:/Users/HP/project/media/videos/vgroup/1080p60/partial_movie_files/AddToVGroup/1164547788_1833941111_2410449351.mp4'
+file 'file:C:/Users/HP/project/media/videos/vgroup/1080p60/partial_movie_files/AddToVGroup/1164547788_3596006818_2410449351.mp4'
+file 'file:C:/Users/HP/project/media/videos/vgroup/1080p60/partial_movie_files/AddToVGroup/1164547788_4214283860_3924493092.mp4'
+file 'file:C:/Users/HP/project/media/videos/vgroup/1080p60/partial_movie_files/AddToVGroup/1164547788_2066220228_91669007.mp4'
